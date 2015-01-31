@@ -1,0 +1,8 @@
+{"source":[
+
+    {"url":"http://feeds.feedburner.com/theverge/MJyr", "urlpagina":"http://www.theverge.com", "nombre":"The Verge", "categoria":"tech", "idioma":"english"}, 
+	{"url":"http://feeds.feedburner.com/polygon/yhac", "urlpagina":"http://www.polygon.com", "nombre":"Polygon", "categoria":"gaming", "idioma":"english"},
+	{"url":"http://feeds.feedburner.com/androidcentral?format=xml", "urlpagina":"http://www.androidcentral.com", "nombre":"Android Central", "categoria":"tech", "idioma":"english"},
+	{"url":"http://feeds.gawker.com/lifehacker/full", "urlpagina":"http://www.lifehacker.com", "nombre":"LifeHacker", "categoria":"tech", "idioma":"english"}
+	
+]}

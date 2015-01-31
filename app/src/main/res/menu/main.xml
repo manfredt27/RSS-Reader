@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/search_option"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom"
+        android:title="Búsqueda"
+        android:textColor="@color/white"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+        android:actionViewClass="android.widget.SearchView" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <item
+        android:id="@+id/add_option"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="Add"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="101"
+        android:title="Settings"
+        android:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/youtube_option"
+                android:icon="@drawable/ic_action_play_over_video"
+                android:showAsAction="always|withText"
+                android:title="Ver videos de Youtube"/>
+
+            <item
+                android:id="@+id/location_option"
+                android:icon="@drawable/ic_action_place"
+                android:showAsAction="always|withText"
+                android:title="Obtener mi ubicación"/>
+
+            <item
+                android:id="@+id/refresh_option"
+                android:icon="@drawable/ic_action_refresh"
+                android:showAsAction="always|withText"
+                android:title="Actualizar contenido"/>
+
+            <item
+                android:id="@+id/recommendations_option"
+                android:icon="@drawable/ic_action_good"
+                android:showAsAction="always|withText"
+                android:title="Recomendaciones"/>
+
+            <item
+                android:id="@+id/sort_option"
+                android:icon="@drawable/ic_action_sort_by_size"
+                android:showAsAction="always|withText"
+                android:title="Ordenar contenido"/>
+
+            <item
+                android:id="@+id/filter_option"
+                android:icon="@drawable/ic_action_location_found"
+                android:showAsAction="always|withText"
+                android:title="Filtrar contenido"/>
+
+            <item
+                android:id="@+id/editors_option"
+                android:icon="@drawable/ic_action_important"
+                android:showAsAction="always|withText"
+                android:title="Editors' Choice"/>
+
+            <item
+                android:id="@+id/account_option"
+                android:icon="@drawable/ic_action_person"
+                android:showAsAction="always|withText"
+                android:title="Mi cuenta"/>
+        </menu>
+    </item>
+
+</menu>

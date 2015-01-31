@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Agregar link</title>
+		<meta name="description" content="Add new event">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/styles.css" rel="stylesheet">	
+			
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/main.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	
+		
+	</head>
+
+	<body>
+		
+		<br>
+		<div>
+			<h1>Agregar link RSS</h1>
+		</div>
+			<hr>
+		<div">
+			<div class="input-group">
+				<input id="name" type="text" class="form-control" placeholder="Nombre">
+				<input id="category" type="choice" class="form-control" placeholder="Categoría">
+				<input id="url" type="text" class="form-control" placeholder="URL">
+				<input id="page" type="text" class="form-control" placeholder="Página">
+				<input id="language" type="text" class="form-control" placeholder="Idioma">
+			</div>
+		</div>
+		<hr>
+		<p>
+		<button class="btn btn-default" style="width: 350px; height: 45px;" onclick="agregarLink()"><font size="5">Agregar Link</font></button>
+		</p>
+		<br>
+		<div>
+			<h1>Agregar video de YouTube</h1>
+		</div>
+			<hr>
+		<div">
+			<div class="input-group">
+				<input id="v_category" type="choice" class="form-control" placeholder="Categoría">
+				<input id="v_url" type="text" class="form-control" placeholder="URL">
+			</div>
+		</div>
+		<hr>
+		<p>
+		<button class="btn btn-default" style="width: 350px; height: 45px;" onclick="agregarVideo()"><font size="5">Agregar Video</font></button>
+		</p>
+		<br>
+		<div>
+			<h1>Agregar recomendación de los editores</h1>
+		</div>
+			<hr>
+		<div">
+			<div class="input-group">
+				<input id="r_name" type="text" class="form-control" placeholder="Nombre">
+				<input id="r_category" type="choice" class="form-control" placeholder="Categoría">
+				<input id="r_url" type="text" class="form-control" placeholder="URL">
+				<input id="r_page" type="text" class="form-control" placeholder="Página">
+				<input id="r_language" type="text" class="form-control" placeholder="Idioma">
+			</div>
+		</div>
+		<hr>
+		<p>
+		<button class="btn btn-default" style="width: 350px; height: 45px;" onclick="agregarRecomendacion()"><font size="5">Agregar Recomendación</font></button>
+		</p>
+		
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/js/bootstrap.js"></script>
+		
+		
+	</body>
+</html>
